@@ -117,6 +117,7 @@ body{
 
 /* SEGUNDA PÁGINA */
 .page{
+     width: 100%;
    min-height:30vh; 
    background-image:url("https://github.com/EstasInvitado/Taylor-Y-Travis/blob/main/FondoBlanco.png?raw=true"); 
    background-size:cover; 
@@ -248,6 +249,7 @@ body{
 
 /* Sección */
 .fecha-lugar {
+    width: 100%;
   background-color: #9C4F3A; /* café terracota */
   padding: 50px 20px;
   display: flex;
@@ -348,6 +350,7 @@ body{
 }
 
 .ceremonia-section {
+    width: 100%;
   background-image: url("https://github.com/EstasInvitado/Taylor-Y-Travis/blob/main/FondoBlanco.png?raw=true");
   background-size: cover;
   background-position: center;
