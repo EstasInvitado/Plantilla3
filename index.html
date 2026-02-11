@@ -1,8 +1,8 @@
 <!DOCTYPE html> 
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Julian & Carolina | Save the Date</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +26,9 @@
 body{
   font-family:'Playfair Display',serif;
   overflow-y:auto; /* ✅ permite scroll */
-  
+            height: 100%
+            margin: 0;
+
 }
 
 :root{
@@ -34,7 +36,17 @@ body{
 }
 
 /* FONDO DIFUMINADO */
-
+.background{
+  position:fixed;
+  inset:0;
+  background-image:var(--image-url);
+  background-size:cover;
+  background-position:center;
+  filter:blur(18px) brightness(0.75);
+  transform:scale(1.1);
+  z-index:-1;
+  display:none;
+}
 
 /* PRIMERA PÁGINA */
 .cover{
@@ -517,7 +529,7 @@ body{
 .agenda-section {
   padding: 90px 20px;
   text-align: center;
-  
+   background: #ffff;
   
 }
 
@@ -650,11 +662,21 @@ body{
   position: relative;
   padding: 30px;
   overflow: hidden;
-  background-image: url("https://github.com/EstasInvitado/Plantilla3/blob/main/ParejaPortada.png?raw=true");
 }
 
 /* Fondo desenfocado fijo */
-
+.galeria-parallax::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("https://github.com/EstasInvitado/Plantilla3/blob/main/ParejaPortada.png?raw=true");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(14px);
+  transform: scale(1.1);
+  z-index: -1;
+}
 
 /* Contenedor */
 .galeria-wrapper {
@@ -913,9 +935,7 @@ audio{display:none;}
   }
   body{
     display:flex;
-    flex-direction: column; /* 🔥 ESTA ES LA CLAVE PARA QUE VAYAN HACIA ABAJO */
-    align-items: center;
-  
+    justify-content:center;
   }
 }
 </style>
