@@ -26,6 +26,7 @@
 body{
   font-family:'Playfair Display',serif;
   overflow-y:auto; /* ✅ permite scroll */
+  
 }
 
 :root{
@@ -932,7 +933,9 @@ audio{display:none;}
   }
   body{
     display:flex;
-    justify-content:center;
+    flex-direction: column; /* 🔥 ESTA ES LA CLAVE PARA QUE VAYAN HACIA ABAJO */
+    align-items: center;
+  
   }
 }
 </style>
