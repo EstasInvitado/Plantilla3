@@ -26,6 +26,7 @@
 body{
   font-family:'Playfair Display',serif;
   overflow-y:auto; /* ✅ permite scroll */
+  width: 100%;
   
 }
 
