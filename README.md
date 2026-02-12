@@ -1,8 +1,8 @@
 <!DOCTYPE html> 
 <html lang="es">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Julian & Carolina | Save the Date</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,9 +26,6 @@
 body{
   font-family:'Playfair Display',serif;
   overflow-y:auto; /* ✅ permite scroll */
-            height: 100%
-            margin: 0;
-
 }
 
 :root{
