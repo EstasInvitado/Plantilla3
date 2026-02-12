@@ -26,6 +26,8 @@
 body{
   font-family:'Playfair Display',serif;
   overflow-y:auto; /* ✅ permite scroll */
+  width: 100%;
+  
 }
 
 :root{
@@ -33,17 +35,7 @@ body{
 }
 
 /* FONDO DIFUMINADO */
-.background{
-  position:fixed;
-  inset:0;
-  background-image:var(--image-url);
-  background-size:cover;
-  background-position:center;
-  filter:blur(18px) brightness(0.75);
-  transform:scale(1.1);
-  z-index:-1;
-  display:none;
-}
+
 
 /* PRIMERA PÁGINA */
 .cover{
@@ -932,7 +924,9 @@ audio{display:none;}
   }
   body{
     display:flex;
-    justify-content:center;
+    flex-direction: column; /* 🔥 ESTA ES LA CLAVE PARA QUE VAYAN HACIA ABAJO */
+    align-items: center;
+  
   }
 }
 </style>
@@ -1386,3 +1380,4 @@ rsvpFlotante.forEach(el => rsvpObserver.observe(el));
 
 </body>
 </html>
+
