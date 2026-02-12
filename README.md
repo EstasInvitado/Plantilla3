@@ -136,7 +136,7 @@ body{
 
 
 .content{
-  max-width:520px;
+  
   width:100%;
 }
 
@@ -258,7 +258,7 @@ body{
 .fecha-box {
   text-align: center;
   color: #ffffff;
-  max-width: 600px;
+  
   width: 100%;
 }
 
