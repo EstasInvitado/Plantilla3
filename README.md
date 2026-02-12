@@ -143,7 +143,7 @@ body{
 .quote{
     font-family: "Antic Didone", serif;
       text-transform: uppercase;
-      
+       width: 100%;
   font-size:1.4rem;
   line-height:1.7;
    line-height: 1.1; 
@@ -177,6 +177,7 @@ body{
   justify-content: center;
   padding: 30px 15px;
   background: white;
+   width: 100%;
 }
 
 /* Cuadro */
@@ -250,6 +251,7 @@ body{
   padding: 50px 20px;
   display: flex;
   justify-content: center;
+   width: 100%;
 }
 
 /* Contenedor */
@@ -451,6 +453,7 @@ body{
   background: #ffffff;
   text-align: center;
   padding: 80px 20px;
+   width: 100%;
 }
 
 /* TÍTULO */
@@ -886,6 +889,8 @@ body{
   text-align: center;
   padding: 20px 10px; /* menos espacio para renglones compactos */
   font-family: "Libre Baskerville", sans-serif;
+  width: 100%;
+       
 }
 
 .footer-minimal p {
