@@ -317,8 +317,8 @@ body{
 
 /* Cada círculo */
 .contador-item {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border: 1.5px solid #ffffff;
   border-radius: 50%;
   display: flex;
@@ -367,6 +367,7 @@ body{
   width: 100%;
   max-width: 420px;
   margin-bottom: 40px;
+  
  
 }
 
@@ -528,6 +529,10 @@ body{
   padding: 90px 20px;
   text-align: center;
    background: #ffff;
+      width: 100%;
+        min-height: 100vh;
+        
+ 
   
 }
 
@@ -536,7 +541,7 @@ body{
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #3e2b24; /* café oscuro */
+  color: #8B5A2B; /* café oscuro */
   margin-bottom: 60px;
   
 }
@@ -563,21 +568,21 @@ body{
   width: 340px;
    margin: 0 auto;   /* 👈 ESTA LÍNEA LA CENTRA */
   padding: 70px 50px;
-  background: #F8F3E9;
+  background: #FFFF;
   border-radius: 50% / 38%;
   text-align: center;
-  border: 1px solid #D4B98C;
+  border: 1px solid #8B5A2B;
   box-shadow: 
     0 15px 35px rgba(0, 0, 0, 0.08),
-    inset 0 0 0 6px #F8F3E9,
-    inset 0 0 0 7px #E7D7B8;
+    inset 0 0 0 6px #8B5A2B,
+    inset 0 0 0 7px #8B5A2B;
 }
 
 /* Título elegante */
 .agenda-oval h2 {
   margin: 0;
   font-size: 28px;
-  color: #4A2F27;
+  color: #8B5A2B;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -586,7 +591,7 @@ body{
 .agenda-oval p {
   margin-top: 12px;
   font-size: 16px;
-  color: #8C7A66;
+  color: #8B5A2B;
   letter-spacing: 0.5px;
 }
 
@@ -595,7 +600,7 @@ body{
   width: 90px;
   height: 2px;
   margin: 0 auto;
-  background: linear-gradient(to right, transparent, #D4B98C, transparent);
+  background: linear-gradient(to right, transparent, #8B5A2B, transparent);
   position: relative;
 }
 
@@ -607,9 +612,9 @@ body{
   transform: translateX(-50%);
   width: 10px;
   height: 10px;
-  border: 1px solid #D4B98C;
+  border: 1px solid #8B5A2B;
   border-radius: 50%;
-  background: #F8F3E9;
+  background: #8B5A2B;
 }
 
 .top {
@@ -636,12 +641,12 @@ body{
 
 .agenda-oval h3 {
   font-weight: 600;
-  color: #6f3f28; /* café */
+  color: #8d6e63; /* café */
   margin-bottom: 8px;
 }
 
 .terracota {
-  color: #c46a3a;
+  color: #E8B7B1;
 }
 
 .agenda-oval p {
@@ -652,7 +657,7 @@ body{
 .agenda-line {
   width: 2px;
   height: 120px;
-  background: #E8E1CF;
+  background: #8d6e63;
   margin: 25px auto;
 }
 
